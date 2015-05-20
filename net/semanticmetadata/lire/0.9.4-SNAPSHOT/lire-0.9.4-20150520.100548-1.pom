@@ -168,7 +168,7 @@
 					<message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
 					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
-					<branch>refs/heads/lire</branch>                       <!-- remote branch name -->
+					<branch>refs/heads/lire</branch>       <!-- remote branch name -->
 					<includes><include>**/*</include></includes>
 					<repositoryName>maven-repo</repositoryName>      <!-- github repo name -->
 					<repositoryOwner>angleto</repositoryOwner>    <!-- github username  -->
