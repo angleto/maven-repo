@@ -51,13 +51,13 @@
 
 	<groupId>net.semanticmetadata</groupId>
 	<artifactId>lire</artifactId>
-	<version>0.9.4-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>lire</name>
 	<description>Lucene Image Retrieval</description>
 	<url>http://www.semanticmetadata.net/</url>
-	<inceptionYear>2012</inceptionYear>
+	<inceptionYear>2016</inceptionYear>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -71,7 +71,7 @@
 		<!-- github server corresponds to entry in ~/.m2/settings.xml -->
 		<github.global.server>github</github.global.server>
 
-		<lucene-core.version>5.2.1</lucene-core.version>
+		<lucene-core.version>6.0.0</lucene-core.version>
 		<commons-math3.version>3.5</commons-math3.version>
 		<commons-codec.version>1.10</commons-codec.version>
 		<commons-io.version>2.4</commons-io.version>
